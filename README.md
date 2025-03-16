@@ -4,7 +4,9 @@ Zhenlong Yuan, Jiakai Cao, Zhaoxin Li, and Zhaoqi Wang, [**TSAR-MVS: Textureless
 ![](images/TSAR-MVS-pipeline.png)
 
 ## Introduction
-TSAR-MVS is the first method who combines the instance segmentation model **SAM** with multi-view stereo(**MVS**) algorithm to address limited receptive field of PatchMatch-based MVS.
+TSAR-MVS is a universal algorithm that can be extended to most multi-view stereo(**MVS**) methods to further help them reconstruct textureless areas.
+
+to reconstruct weak texture areas.
 
 Our paper was accepted by **Pattern Recogntion 2024**!
 
