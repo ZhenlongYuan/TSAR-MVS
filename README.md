@@ -1,7 +1,12 @@
-# TSAR-MVS: Textureless-aware Segmentation and Correlative Refinement Guided Multi-View Stereo
+# TSAR-MVS
 
+Zhenlong Yuan, Jiakai Cao, Zhaoxin Li, and Zhaoqi Wang, [**TSAR-MVS: Textureless-aware Segmentation and Correlative Refinement Guided Multi-View Stereo**](https://arxiv.org/pdf/2308.09990), Pattern Recogntion 2024.
+![](images/TSAR-MVS-pipeline.png)
 
-Our paper was accepted by Pattern Recogntion 2024!
+## Introduction
+TSAR-MVS is the first method who combines the instance segmentation model **SAM** with multi-view stereo(**MVS**) algorithm to address limited receptive field of PatchMatch-based MVS.
+
+Our paper was accepted by **Pattern Recogntion 2024**!
 
 If you find this project useful for your research, please cite:  
 
