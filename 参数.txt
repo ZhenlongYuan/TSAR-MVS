@@ -1,0 +1,16 @@
+delivery_area: 
+
+//const int Robthr = 4;
+//
+//const int Houthr = 110;//小于这个被丢弃，越大保留越少
+//const int minLineLength = 160;//小于这个被丢弃，越大保留越少
+//const int maxLineGap = 18;//保留小于这个距离阈值的点，越大保留越多
+//const int weaktextnum = 5000;
+
+const int Robthr = 3;
+
+const int Houthr = 1600;//小于这个被丢弃，越大保留越少
+const int minLineLength = 1600;//小于这个被丢弃，越大保留越少
+const int maxLineGap = 1;//保留小于这个距离阈值的点，越大保留越多
+const int weaktextnum = 5000;
+const int sizerat = 2.5;
