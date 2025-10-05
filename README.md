@@ -1,26 +1,32 @@
-# Gipuma
+# TSAR-MVS
 
-Source code for the paper:
+Zhenlong Yuan, Jiakai Cao, Zhaoxin Li, and Zhaoqi Wang, [**TSAR-MVS: Textureless-aware Segmentation and Correlative Refinement Guided Multi-View Stereo**](https://arxiv.org/pdf/2308.09990), Pattern Recogntion 2024.
+![](images/TSAR-MVS-pipeline.png)
 
-_S. Galliani, K. Lasinger and K. Schindler_, [**Massively Parallel Multiview Stereopsis by Surface Normal Diffusion**](http://www.prs.igp.ethz.ch/content/dam/ethz/special-interest/baug/igp/photogrammetry-remote-sensing-dam/documents/pdf/galliani-lasinger-iccv15.pdf) [(**supplementary material**)](http://www.prs.igp.ethz.ch/content/dam/ethz/special-interest/baug/igp/photogrammetry-remote-sensing-dam/documents/pdf/galliani-lasinger-supplementary-iccv15.pdf), [ICCV 2015](http://pamitc.org/iccv15/)
+## Introduction
+TSAR-MVS is a universal algorithm that can be extended to most multi-view stereo(**MVS**) methods to further help them reconstruct textureless areas.
 
-## Documentation and Install
-Refer to the [wiki](https://github.com/kysucix/gipuma/wiki) for detailed documentation and examples.
+to reconstruct weak texture areas.
 
-## Authors
-- [Silvano Galliani](mailto:kysucix@dyne.org)
-- [Katrin Lasinger](mailto:katrin.lasinger@geod.baug.ethz.ch)
+Our paper was accepted by **Pattern Recogntion 2024**!
 
-&copy; 2015-2020 Silvano Galliani, Katrin Lasinger, ETH Zurich
+If you find this project useful for your research, please cite:  
 
-
-**IMPORTANT**: If you use this software please cite the following in any resulting publication:
 ```
-@InProceedings{Galliani_2015_ICCV,
-     author  = {Galliani, Silvano and Lasinger, Katrin and Schindler, Konrad},
-     title   = {Massively Parallel Multiview Stereopsis by Surface Normal Diffusion},
-     journal = {The IEEE International Conference on Computer Vision (ICCV)},
-     month   = {June},
-     year    = {2015}
+@InProceedings{TSAR-MVS,
+  title = {TSAR-MVS: {{Textureless-aware}} Segmentation and Correlative Refinement Guided Multi-View Stereo},
+  shorttitle = {TSAR-MVS},
+  author = {Yuan, Zhenlong and Cao, Jiakai and Wang, Zhaoqi and Li, Zhaoxin},
+  year = {2024},
+  journal = {Pattern Recognition},
+  volume = {154},
+  pages = {110565},
+  publisher = {Elsevier}
 }
 ```
+## Code
+Code is coming soon.
+
+## Acknowledgements
+
+This code largely benefits from the following repositories: [ACMMP](https://github.com/GhiXu/ACMMP.git), [Gipuma](https://github.com/kysucix/gipuma). Thanks to their authors for opening the source of their excellent works.
