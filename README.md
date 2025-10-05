@@ -6,8 +6,6 @@ Zhenlong Yuan, Jiakai Cao, Zhaoxin Li, and Zhaoqi Wang, [**TSAR-MVS: Textureless
 ## Introduction
 TSAR-MVS is a universal algorithm that can be extended to most multi-view stereo(**MVS**) methods to further help them reconstruct textureless areas.
 
-to reconstruct weak texture areas.
-
 Our paper was accepted by **Pattern Recogntion 2024**!
 
 If you find this project useful for your research, please cite:  
@@ -75,4 +73,5 @@ because it allows to render points cloud with normals.
 ## Acknowledgements
 
 This code largely benefits from the following repositories: [ACMMP](https://github.com/GhiXu/ACMMP.git), [Gipuma](https://github.com/kysucix/gipuma). Thanks to their authors for opening the source of their excellent works.
+
 
